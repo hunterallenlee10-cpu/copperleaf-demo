@@ -578,6 +578,7 @@ select.input { appearance: none; -webkit-appearance: none; background-image: url
 .callbar .btn-ghost { color: #fff; border-color: rgba(255,255,255,0.3); }
 .callbar.is-hidden { transform: translateY(140%); opacity: 0; }
 @media (max-width: 768px) { .callbar { display: flex; } }
+@media (max-width: 768px) { .footer { padding-bottom: calc(100px + env(safe-area-inset-bottom)); } }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
@@ -1164,7 +1165,7 @@ select.input { appearance: none; -webkit-appearance: none; background-image: url
         <ul><li><a href="tel:+16105550147">(610) 555-0147</a></li><li><a href="mailto:hello@copperleafgrounds.com">hello@copperleafgrounds.com</a></li><li>West Chester, PA</li></ul>
       </div>
     </div>
-    <div class="footer-legal"><span>&copy; <span id="year">2026</span> Copperleaf Grounds Co. Licensed &amp; insured.</span><a href="#top">Back to the top <i class="ph ph-arrow-up" aria-hidden="true"></i></a></div>
+    <div class="footer-legal"><span>&copy; <span id="year">2026</span> Copperleaf Grounds Co. Licensed &amp; insured.</span><a href="#top">Back to the top <i class="ph ph-arrow-up" aria-hidden="true"></i></a><span style="flex-basis: 100%;">Website by <a href="https://www.leeenterprisesunlimited.com/" target="_blank" rel="noopener">Lee Enterprises Unlimited</a></span></div>
   </div>
 </footer>
 
